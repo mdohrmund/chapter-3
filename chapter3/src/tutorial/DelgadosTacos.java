@@ -114,12 +114,48 @@ public class DelgadosTacos {
 	{
 		
 		
-		double totalWithTax;
+		double totalWithTax; 
 	
 		
 		totalWithTax = total * 1.075;
 		DecimalFormat df = new DecimalFormat("0.00");
 		System.out.println(" dollars. With tax your total will be $" + df.format(totalWithTax));
+		
+		
+		
+		
+		System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXX          XXXXXXXXXXXXXXXXXXXX         XXXXX");
+		System.out.println("XXXXXXXXXXXXXX          XXXXXXXXXXXXXXXXXXXX         XXXXXX");
+		System.out.println("XXXXXXXXXXXXXX          XXXXXXXXXXXXXXXXXXXX         XXXXXXX");
+		System.out.println("XXXXXXXXXXXXXX          XXXXXXXXXXXXXXXXXXXX         XXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXX          XXXXXXXXXXXXXXXXXXXX         XXXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXX          XXXXXXXXXXXXXXXXXXXX         XXXXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXXXXXXXxXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXXXOOOOOOOOXXXXXXXXXXXXXXXXXXXXXXOOOOOOOOXXXXXXXXXXXXXX");
+		System.out.println("              O        O                    O        O");
+		System.out.println("             O          O                  O          O");
+		System.out.println("              O        O                    O        O");
+		System.out.println("                  O                              O    ");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 	}

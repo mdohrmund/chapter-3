@@ -7,8 +7,8 @@ public class CreateSpaServices {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		CreateSpaServices firstService = new CreateSpaServices();
-		CreateSpaServices secondService = new CreateSpaServices();
+		SpaService firstService = new SpaService();
+		SpaService secondService = new SpaService();
 		firstService = getData(firstService);
 		secondService = getData(secondService);
 		System.out.println("First service details");
@@ -31,7 +31,7 @@ public class CreateSpaServices {
 		return null;
 	}
 
-	public static CreateSpaServices getData(CreateSpaServices s)
+	public static SpaService getData(SpaService firstService)
 	
 	{
 		String service;
@@ -42,10 +42,10 @@ public class CreateSpaServices {
 		System.out.print("Enter price >> ");
 		price = keyboard.nextDouble();
 		keyboard.nextLine();
-		s.setServiceDescription(service);
-		s.setPrice(price);
+		firstService.setServiceDescription(service);
+		firstService.setPrice(price);
 		
-		return s;
+		return firstService;
 	}
 
 }
